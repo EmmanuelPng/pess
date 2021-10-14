@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+div {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color:#333333
+}
+
+a {
+  float: left;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #000000;
+}
