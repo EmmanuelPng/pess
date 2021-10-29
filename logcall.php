@@ -62,10 +62,9 @@
 	?>
 	
 	<fieldset>
-	<legend>Log Call</legend>
-		<form name="frmLogCall" method="post" action="dispatch.php" onSubmit="return Emmanuel();">
+	<legend>Log Call</legend><div id="form1">
+		<form id="form1" name="frmLogCall" method="post" action="dispatch.php" onSubmit="return Emmanuel();">
 		<table width="40%" border="1" align="center" cellpadding="4" cellspacing="4">
-			
 			<tr>
 			<td width="50%">Caller's Name:</td>
 			<td width="50%"><input type="text" name="callerName" id="callerName"></td>
@@ -102,7 +101,8 @@
 			<td><input type="submit" name="btnProcessCall" id="btnProcessCall" value="Process Call"></td>
 			</tr>
 			</table>
-		</form>
+				
+		</form></div>
 	</fieldset>
 	
 </body>

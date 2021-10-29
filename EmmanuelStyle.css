@@ -1,25 +1,49 @@
 @charset "utf-8";
 /* CSS Document */
-div {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  background-color:#333333
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+
+header .topnav {
+ color: #FFFFFF;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
-a {
-  float: left;
+header ul{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 }
 
-a {
-  display: block;
+header ul li{
+	list-style: none;
+	margin-left: 20px;
+}
+header ul li a {
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #FFFFFF;
+	border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active1
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+
+body{
+	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(#333333, #7597DE);
+	color: #FFFFFF;
+}
+
+legend {
+  background-color: gray;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: #000000;
+  padding: 5px 10px;
+	border-radius: 20px;
 }
